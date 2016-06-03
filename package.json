@@ -25,9 +25,7 @@
   "bin": {
     "webuild": "./bin/webuild.js"
   },
-  "main": [
-    "index.js"
-  ],
+  "main": "index.js",
   "dependencies": {
     "webpack": "^1.13.0",
     "find": "^0.2.4",
