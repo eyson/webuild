@@ -1,15 +1,15 @@
-'use strict';
+const assetsBumper = require('./lib/dependencies/assets-bumper');
 
-function My(){
-    this.name = 'Eyson';
+function Webuild(){
+    this.name = 'webuild';
+    this.version = '1.1.0'
 }
 
-My.version = '1.0.0';
-
-My.prototype = {
+Webuild.prototype = {
+    assetsBumper: assetsBumper,
     run: function(cmd){
         console.log('Run: ' + cmd);
     }
 };
 
-module.exports = new My();
+module.exports = new Webuild();
