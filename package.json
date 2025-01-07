@@ -1,19 +1,15 @@
 {
   "name": "webuild",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "description": "A lightweight the front end of the build tools",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eyson/webuild.git"
+    "url": "git+https://github.com/eyson/webuild.git"
   },
-  "author": {
-    "name": "Eyson",
-    "email": "youyansen@gmail.com",
-    "url": "https://github.com/eyson"
-  },
+  "author": "Eyson <youyansen@gmail.com> (https://github.com/eyson)",
   "tags": [
     "webuild"
   ],
@@ -23,7 +19,7 @@
     "lib"
   ],
   "bin": {
-    "webuild": "./bin/webuild.js"
+    "webuild": "bin/webuild.js"
   },
   "main": "index.js",
   "dependencies": {
@@ -47,5 +43,9 @@
   "bugs": {
     "url": "https://github.com/eyson/webuild/issues"
   },
-  "homepage": "https://github.com/eyson/webuild"
+  "homepage": "https://github.com/eyson/webuild",
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "ISC"
 }
